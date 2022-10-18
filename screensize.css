@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+    body {
+      background-color: yellow;
+      text-align: center;
+      font-size: large;
+      
+    }
+  }
+
+  @media screen and (min-width: 601px) {
+    body {
+      background-color: blue;
+      text-align: center;
+      font-size: xx-large;
+      color: white;
+    }
+  }
+
+  /*
+  This work by using @media screen. It makes the screen 
+  looks different when the width of the screen is less than 
+  600px and greater than 601px.  
+  */
